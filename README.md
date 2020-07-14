@@ -123,29 +123,7 @@ setwd("../")
 
 setwd("..")
 
-# Supplemental 7
 
-setwd("Supplementary7 and supplemental Table 2_subsampling/")
-
-# This code calculates all cwFold-changes with all samples and all cell-types,
-# Results are stored in /data and code takes a while to run
-source("preprocessing/kidney_scMappR_comparisons.R")
-
-# This code calculates all cwFold-changes with 7 samples and 4 cell-types
-# Results are stored in /data and code takes a while to run
-
-source("preprocessing/kidney_scMappR_comparisons_small.R")
-
-source("SupplementaryFigure7.R")
-setwd("..")
-
-# Supplemental 8
-
-setwd("Supplementary8_gwas/")
-
-source("SupplementaryFigure8.R")
-
-setwd("..")
 
 
 ```
